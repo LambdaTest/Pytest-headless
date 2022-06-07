@@ -15,8 +15,7 @@ capabilities = {
         "headless": True
 }
  ```
- 
-* Full documentation for browser configuration [Pytest](https://pytest-selenium.readthedocs.io/en/latest/user_guide.html).
+
 
 # Links:
 
