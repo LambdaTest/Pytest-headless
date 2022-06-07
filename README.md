@@ -12,7 +12,7 @@ capabilities = {
         "platformName": "Windows 11",
         "browserName": "Chrome",
         "browserVersion": "latest",
-	"headless": True
+        "headless": True
 }
  ```
  
