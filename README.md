@@ -4,10 +4,16 @@ If you want to run chrome and firefox browser in headless mode for an automation
 
 # Steps:
 
-You can run a test in headless mode for Chrome and Firefox with the argument '--headless'. For example:
+You can run a test in headless mode by adding that as a desired capability in the `conftest.py` file. For example:
 
  ```
-pytest test_demo_site.py --headless
+capabilities = {
+        "build": "Sample PY Build",
+        "platformName": "Windows 11",
+        "browserName": "Chrome",
+        "browserVersion": "latest",
+		"headless": True
+}
  ```
  
 * Full documentation for browser configuration [Pytest](https://pytest-selenium.readthedocs.io/en/latest/user_guide.html).
